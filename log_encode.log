@@ -1,0 +1,438 @@
+ffmpeg version 4.1.5 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 9 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld ' --extra-cflags=' ' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libmp3lame --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librsvg --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-libvpx --enable-libx264 --enable-libx265 --enable-libxvid --enable-libzvbi --enable-avfilter --enable-avresample --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-libmfx --enable-runtime-cpudetect
+  libavutil      56. 22.100 / 56. 22.100
+  libavcodec     58. 35.100 / 58. 35.100
+  libavformat    58. 20.100 / 58. 20.100
+  libavdevice    58.  5.100 / 58.  5.100
+  libavfilter     7. 40.101 /  7. 40.101
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  3.100 /  5.  3.100
+  libswresample   3.  3.100 /  3.  3.100
+  libpostproc    55.  3.100 / 55.  3.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument '/tmp/KritaFFmpegProgress.kuYYYr'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '36'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument '/home/niinja/Documents/Coop/site/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'scale=w=908:h=898:force_original_aspect_ratio=decrease'.
+Reading option '-c:v' ... matched as option 'c' (codec name) with argument 'libx265'.
+Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
+Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
+Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'main'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '/home/niinja/Documents/Coop/site/ypatia.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument /tmp/KritaFFmpegProgress.kuYYYr.
+[file @ 0x5569a01ea600] Setting default whitelist 'file,crypto'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url /home/niinja/Documents/Coop/site/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 36.
+Successfully parsed a group of options.
+Opening an input file: /home/niinja/Documents/Coop/site/frame%04d.png.
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0000.png' for reading
+[file @ 0x5569a01edf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01ee1c0] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0001.png' for reading
+[file @ 0x5569a01f0900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f09c0] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0002.png' for reading
+[file @ 0x5569a01f0f80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f1200] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0003.png' for reading
+[file @ 0x5569a01f0f80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f16c0] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0004.png' for reading
+[file @ 0x5569a01f1a80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f1d80] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0005.png' for reading
+[file @ 0x5569a01f1a40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f1fc0] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0006.png' for reading
+[file @ 0x5569a01f1fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01fef80] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0007.png' for reading
+[file @ 0x5569a01f7140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f7200] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0008.png' for reading
+[file @ 0x5569a01f7780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f7840] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0009.png' for reading
+[file @ 0x5569a01f7700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f7240] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0010.png' for reading
+[file @ 0x5569a01f7700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f77c0] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0011.png' for reading
+[file @ 0x5569a01f7700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f77c0] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0012.png' for reading
+[file @ 0x5569a01f7700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f7d80] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0013.png' for reading
+[file @ 0x5569a01f7700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f7c00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0014.png' for reading
+[file @ 0x5569a01f7700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f8200] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0015.png' for reading
+[file @ 0x5569a01f77c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f8100] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0016.png' for reading
+[file @ 0x5569a01f8100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f8400] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0017.png' for reading
+[file @ 0x5569a01f8500] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f85c0] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0018.png' for reading
+[file @ 0x5569a01f8600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f86c0] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0019.png' for reading
+[file @ 0x5569a01f8ac0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f8b80] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0020.png' for reading
+[file @ 0x5569a01f8b00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f8e40] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0021.png' for reading
+[file @ 0x5569a01f8b00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a01f8f00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from '/home/niinja/Documents/Coop/site/frame%04d.png':
+  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
+    Stream #0:0, 22, 1/25: Video: png, 1 reference frame, rgb24(pc), 907x897 [SAR 11811:11811 DAR 907:897], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url /home/niinja/Documents/Coop/site/ypatia.mp4.
+Applying option vf (set video filters) with argument scale=w=908:h=898:force_original_aspect_ratio=decrease.
+Applying option c:v (codec name) with argument libx265.
+Applying option profile:v (set profile) with argument main.
+Applying option pix_fmt (set pixel format) with argument yuv420p.
+Successfully parsed a group of options.
+Opening an output file: /home/niinja/Documents/Coop/site/ypatia.mp4.
+[file @ 0x5569a01f3e40] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> hevc (libx265))
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[Parsed_scale_0 @ 0x5569a01f1580] Setting 'w' to value '908'
+[Parsed_scale_0 @ 0x5569a01f1580] Setting 'h' to value '898'
+[Parsed_scale_0 @ 0x5569a01f1580] Setting 'force_original_aspect_ratio' to value 'decrease'
+[Parsed_scale_0 @ 0x5569a01f1580] Setting 'flags' to value 'bicubic'
+[Parsed_scale_0 @ 0x5569a01f1580] w:908 h:898 flags:'bicubic' interl:0
+[graph 0 input from stream 0:0 @ 0x5569a01f1b80] Setting 'video_size' to value '907x897'
+[graph 0 input from stream 0:0 @ 0x5569a01f1b80] Setting 'pix_fmt' to value '2'
+[graph 0 input from stream 0:0 @ 0x5569a01f1b80] Setting 'time_base' to value '1/36'
+[graph 0 input from stream 0:0 @ 0x5569a01f1b80] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 0x5569a01f1b80] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 0x5569a01f1b80] Setting 'frame_rate' to value '36/1'
+[graph 0 input from stream 0:0 @ 0x5569a01f1b80] w:907 h:897 pixfmt:rgb24 tb:1/36 fr:36/1 sar:11811/11811 sws_param:flags=2
+[format @ 0x5569a0249880] Setting 'pix_fmts' to value 'yuv420p'
+[AVFilterGraph @ 0x5569a0247540] query_formats: 4 queried, 3 merged, 0 already done, 0 delayed
+[Parsed_scale_0 @ 0x5569a01f1580] w:907 h:897 fmt:rgb24 sar:11811/11811 -> w:908 h:898 fmt:yuv420p sar:407243/407238 flags:0x4
+x265 [info]: HEVC encoder version 3.0
+x265 [info]: build info [Linux][GCC 9.0.1][64 bit] 8bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-3.1 (Main tier)
+x265 [info]: Thread pool created using 8 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(15 rows)
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-23.0 / 0.60
+x265 [info]: tools: rd=3 psy-rd=2.00 rskip signhide tmvp strong-intra-smoothing
+x265 [info]: tools: lslices=5 deblock sao
+Output #0, mp4, to '/home/niinja/Documents/Coop/site/ypatia.mp4':
+  Metadata:
+    encoder         : Lavf58.20.100
+    Stream #0:0, 0, 1/18432: Video: hevc (libx265), 1 reference frame (hev1 / 0x31766568), yuv420p, 908x898 [SAR 407243:407238 DAR 907:897], 0/1, q=2-31, 36 fps, 18432 tbn, 36 tbc
+    Metadata:
+      encoder         : Lavc58.35.100 libx265
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 13 times
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0022.png' for reading
+[file @ 0x5569a0a6d540] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a3991d80] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0023.png' for reading
+[file @ 0x5569a3139740] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a3dbda40] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0024.png' for reading
+[file @ 0x5569a3565680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a41e9a40] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0025.png' for reading
+[file @ 0x5569a0a6d7c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a464e500] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0026.png' for reading
+[file @ 0x5569a3139740] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a5383080] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0027.png' for reading
+[file @ 0x5569a01f7400] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a4f17180] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0028.png' for reading
+[file @ 0x5569a3565680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a537b400] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0029.png' for reading
+[file @ 0x5569a4ab2600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a60b0e00] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0030.png' for reading
+[file @ 0x5569a3139740] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a5c44480] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0031.png' for reading
+[file @ 0x5569a026d4c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a60a9280] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0032.png' for reading
+[file @ 0x5569a3565680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a650e500] Statistics: 230266 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0033.png' for reading
+[file @ 0x5569a4ab2600] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a6972e00] Statistics: 230291 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0034.png' for reading
+[file @ 0x5569a3139740] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a6d9e900] Statistics: 230291 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0035.png' for reading
+[file @ 0x5569a026d4c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a71ca640] Statistics: 230291 bytes read, 0 seeks
+frame=   28 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0036.png' for reading
+[file @ 0x5569a3565680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a53bb340] Statistics: 230291 bytes read, 0 seeks
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0037.png' for reading
+[file @ 0x5569a3139740] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a7ea4fc0] Statistics: 230291 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0038.png' for reading
+[file @ 0x5569a53bb4c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753980] Statistics: 230291 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0039.png' for reading
+[file @ 0x5569a3139740] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a90026c0] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0040.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a98bd040] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0041.png' for reading
+[file @ 0x5569a28e0ac0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aa1812c0] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0042.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569ab2e7e40] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0043.png' for reading
+[file @ 0x5569a0a6d7c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569ab2e7e40] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0044.png' for reading
+[file @ 0x5569a720a740] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569ab2e7e40] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0045.png' for reading
+[file @ 0x5569a8753b00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d600] Statistics: 230066 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0046.png' for reading
+[file @ 0x5569a28e0ac0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aae5df00] Statistics: 230066 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0047.png' for reading
+[file @ 0x5569a464e780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230066 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0048.png' for reading
+[file @ 0x5569a0a6d7c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230066 bytes read, 0 seeks
+frame=   41 fps= 38 q=-0.0 size=       0kB time=00:00:00.25 bitrate=   1.4kbits/s speed=0.23x    [image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0049.png' for reading
+[file @ 0x5569a8753b00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230066 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0050.png' for reading
+[file @ 0x5569aa1c10c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230066 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0051.png' for reading
+[file @ 0x5569aaa6d500] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0052.png' for reading
+[file @ 0x5569aaa6d500] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0053.png' for reading
+[file @ 0x5569aaa6d500] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0054.png' for reading
+[file @ 0x5569a991c280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0055.png' for reading
+[file @ 0x5569a991c280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569aaa2d6c0] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0056.png' for reading
+[file @ 0x5569a991c280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230239 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0057.png' for reading
+[file @ 0x5569aa1c10c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230291 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0058.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230291 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0059.png' for reading
+[file @ 0x5569aaa6d500] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230291 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0060.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230291 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0061.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230291 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0062.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0063.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0064.png' for reading
+[file @ 0x5569a5c84280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0065.png' for reading
+[file @ 0x5569a0246400] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+frame=   58 fps= 36 q=-0.0 size=       0kB time=00:00:00.72 bitrate=   0.5kbits/s speed=0.452x    [image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0066.png' for reading
+[file @ 0x5569a0246400] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0067.png' for reading
+[file @ 0x5569a01f1c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0068.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0069.png' for reading
+[file @ 0x5569a3565680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0070.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0071.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0072.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0073.png' for reading
+[file @ 0x5569a5c84280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0074.png' for reading
+[file @ 0x5569a3565680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0075.png' for reading
+[file @ 0x5569a3565680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0076.png' for reading
+[file @ 0x5569aae5f480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0077.png' for reading
+[file @ 0x5569aae5f480] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0078.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0079.png' for reading
+[file @ 0x5569aae5ed00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0080.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0081.png' for reading
+[file @ 0x5569aae5ed00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0082.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+frame=   75 fps= 35 q=-0.0 size=       0kB time=00:00:01.19 bitrate=   0.3kbits/s speed=0.561x    [image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0083.png' for reading
+[file @ 0x5569aae5ed00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0084.png' for reading
+[file @ 0x5569a464e780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0085.png' for reading
+[file @ 0x5569a01f1c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0086.png' for reading
+[file @ 0x5569a0a6d7c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0087.png' for reading
+[file @ 0x5569a2088c40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0088.png' for reading
+[file @ 0x5569a01f1c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0089.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0090.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0091.png' for reading
+[file @ 0x5569a464e780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0092.png' for reading
+[file @ 0x5569a0a6d7c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0093.png' for reading
+[file @ 0x5569a2088c40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0094.png' for reading
+[file @ 0x5569a464e780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0095.png' for reading
+[file @ 0x5569aae5ee80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0096.png' for reading
+[file @ 0x5569a6973080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0097.png' for reading
+[file @ 0x5569a5c84280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0098.png' for reading
+[file @ 0x5569a0a6d7c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+frame=   91 fps= 35 q=-0.0 size=       0kB time=00:00:01.63 bitrate=   0.2kbits/s speed=0.624x    [image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0099.png' for reading
+[file @ 0x5569a2088c40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[image2 @ 0x5569a01eab40] Opening '/home/niinja/Documents/Coop/site/frame0100.png' for reading
+[file @ 0x5569a464e780] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5569a8753b00] Statistics: 230266 bytes read, 0 seeks
+[out_0_0 @ 0x5569a02494c0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=  101 fps= 29 q=-0.0 Lsize=      78kB time=00:00:02.72 bitrate= 235.0kbits/s speed=0.786x    
+[AVIOContext @ 0x5569a01ea9c0] Statistics: 0 seeks, 6 writeouts
+video:74kB audio:0kB subtitle:0kB other streams:0kB global headers:2kB muxing overhead: 5.557976%
+Input file #0 (/home/niinja/Documents/Coop/site/frame%04d.png):
+  Input stream #0:0 (video): 101 packets read (23255617 bytes); 101 frames decoded; 
+  Total: 101 packets (23255617 bytes) demuxed
+Output file #0 (/home/niinja/Documents/Coop/site/ypatia.mp4):
+  Output stream #0:0 (video): 101 frames encoded; 101 packets muxed (75747 bytes); 
+  Total: 101 packets (75747 bytes) muxed
+101 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0x5569a01f3f00] Statistics: 2 seeks, 4 writeouts
+x265 [info]: frame I:      1, Avg QP:23.54  kb/s: 17785.44
+x265 [info]: frame P:     29, Avg QP:29.35  kb/s: 59.86   
+x265 [info]: frame B:     71, Avg QP:31.38  kb/s: 30.67   
+x265 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x265 [info]: consecutive B-frames: 23.3% 3.3% 26.7% 6.7% 40.0% 
+
+encoded 101 frames in 3.40s (29.72 fps), 214.84 kb/s, Avg QP:30.72
